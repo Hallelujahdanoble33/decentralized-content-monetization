@@ -1,0 +1,12 @@
+[project]
+name = "decentralized-content-monetization"
+description = "Blockchain project: decentralized-content-monetization"
+authors = ["Hallelujahdanoble33 <>"]
+telemetry = false
+cache_dir = ".clarinet"
+
+[contracts.main-contract]
+path = "contracts/main-contract.clar"
+clarinet_version = "1.0.0"
+
+[requirements]
