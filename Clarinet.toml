@@ -1,12 +1,16 @@
 [project]
 name = "decentralized-content-monetization"
 description = "Blockchain project: decentralized-content-monetization"
-authors = ["Hallelujahdanoble33 <>"]
+authors = ["Automated Builder <automation@blockchain.dev>"]
 telemetry = false
 cache_dir = ".clarinet"
+requirements = []
 
-[contracts.main-contract]
-path = "contracts/main-contract.clar"
-clarinet_version = "1.0.0"
+[contracts.content-tokenization-vault]
+path = "contracts/content-tokenization-vault.clar"
+depends_on = []
 
-[requirements]
+[contracts.creator-revenue-distributor]
+path = "contracts/creator-revenue-distributor.clar"
+depends_on = []
+
